@@ -9,7 +9,7 @@ Aşağıda, bu programda neler yapılabileceğini ve bu işlemler sırasında ha
 1. Kullanıcı Girişi (Authentication / Login)
 - Amaç: Kullanıcı adı ve şifre ile giriş yapılır, başarılıysa JWT (token) ve refresh token döner.
 - İlgili Dosyalar ve Fonksiyonlar:
-  - `Controllers/AuthController.cs`: Giriş isteğini karşılar. (Muhtemelen bir `Login` veya `Authenticate` fonksiyonu var.)
+  - `Controllers/AuthController.cs`: Giriş isteğini karşılar.
   - `Services/AuthService.cs`: Kullanıcı doğrulama ve token üretimi işlemlerini yapar.
   - `Services/TokenService.cs`:
     - `CreateToken(User user)`: JWT token üretir.

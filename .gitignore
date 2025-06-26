@@ -1,0 +1,28 @@
+# Build results
+bin/
+obj/
+
+# Publish results
+publish/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Others
+*.log
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
